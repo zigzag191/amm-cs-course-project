@@ -1,11 +1,12 @@
-﻿namespace OnlineStore.WebAPI.Settings
+﻿namespace OnlineStore.WebAPI.Settings;
+
+public static class OnlineStoreSettingsReader
 {
-    public static class OnlineStoreSettingsReader
+    public static OnlineStoreSettings Read(IConfiguration configuration)
     {
-        public static OnlineStoreSettings Read(IConfiguration configuration)
+        return new OnlineStoreSettings()
         {
-            //здесь будет чтение настроек приложения из конфига
-            return new OnlineStoreSettings();
-        }
+            OnlineStoreDbContextConnectionString = configuration.GetValue<string>("OnlineStoreDbContext")
+        };
     }
 }
