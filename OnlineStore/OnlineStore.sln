@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineStore.BL", "OnlineSto
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineStore.DataAccess", "OnlineStore.DataAccess\OnlineStore.DataAccess.csproj", "{5313ABE4-234C-43B4-B97C-457B65DF200B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineStrore.UnitTests", "OnlineStrore.UnitTests\OnlineStrore.UnitTests.csproj", "{E9834180-AC5D-42E3-A430-BD97E2D9C6B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineStore.UnitTests", "OnlineStrore.UnitTests\OnlineStore.UnitTests.csproj", "{E9834180-AC5D-42E3-A430-BD97E2D9C6B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

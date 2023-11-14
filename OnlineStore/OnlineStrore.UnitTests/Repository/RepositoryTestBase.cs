@@ -6,9 +6,9 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace OnlineStore.UnitTests.Repository;
 
-public class RepositoryTestsBaseClass
+public class RepositoryTestsBase
 {
-    public RepositoryTestsBaseClass()
+    public RepositoryTestsBase()
     {
         var configuration = new ConfigurationBuilder()
             .AddJsonFile("appsettings.json", optional: false)
