@@ -12,8 +12,8 @@ using OnlineStore.DataAccess;
 namespace OnlineStore.DataAccess.Migrations
 {
     [DbContext(typeof(OnlineStoreDbContext))]
-    [Migration("20231114154125_Initial migration")]
-    partial class Initialmigration
+    [Migration("20231114164002_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
